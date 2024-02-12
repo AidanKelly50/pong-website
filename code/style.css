@@ -1,0 +1,49 @@
+* {
+    font-family: monospace;
+    user-select: none;
+}
+body {
+    background-color: lightslategray;
+}
+.all {
+    width: 800px;
+    height: 700px;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto
+    
+}
+h1 {
+    display: inline-block;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 60px;
+    font-size: 35px;
+}
+#pong {
+    text-align: center;
+    width: 100px;
+    margin-left: 282px;
+    margin-right: 281px;
+}
+#right-score {
+    text-align: right;
+}
+h2 {
+    font-weight: normal;
+    margin: 0px;
+    text-align: center;
+    height: 50px;
+}
+h3 {
+    position: fixed;
+    text-align: center;
+    width: 180px;
+    bottom: 0px;
+    font-weight: normal;
+    left: calc(50% - 90px);
+}
